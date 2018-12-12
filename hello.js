@@ -8,3 +8,4 @@ var HelloWorld = /** @class */ (function () {
     return HelloWorld;
 }());
 HelloWorld.main();
+//# sourceMappingURL=hello.js.map
