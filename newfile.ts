@@ -8,10 +8,14 @@ zrobione = false
 enum Systemy {Windows, Linux, MacOS}
 let mojSystem: Systemy = Systemy.MacOS
 
+type psikus = number | string
 
-function nazwa(p1: string, p2: number = 2,p3?:boolean) {
+
+function nazwa(p1: string, p2: psikus = 2, p3?:boolean) {
 
     if (p2 != 2) return 'Psikus'
+
+    return 1
 }
 
-console.log(nazwa('kk', 3))
+console.log(nazwa('kk'))

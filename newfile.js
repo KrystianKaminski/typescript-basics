@@ -13,6 +13,7 @@ function nazwa(p1, p2, p3) {
     if (p2 === void 0) { p2 = 2; }
     if (p2 != 2)
         return 'Psikus';
+    return 1;
 }
-console.log(nazwa('kk', 3));
+console.log(nazwa('kk'));
 //# sourceMappingURL=newfile.js.map
