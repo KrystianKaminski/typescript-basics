@@ -29,7 +29,16 @@ interface NaszTyp {
     dodatkowe?: string
 }
 
-function wypiszWartosci(param: NaszTyp) : void {
+interface Animal {
+    nazwa: string
+    wiek: number
+    legs: number
+}
+
+type Hybrid = NaszTyp & Animal
+
+
+function wypiszWartosci(param: Hybrid) : void {
     console.log(param.nazwa)
     console.log(param.wiek)
     console.log(param.dodatkowe)
