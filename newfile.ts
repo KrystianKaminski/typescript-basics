@@ -39,4 +39,5 @@ let testowyObiekt = {
     nazwa: "testowy",
     wiek: 1
 }
+
 wypiszWartosci(testowyObiekt)
