@@ -12,8 +12,18 @@ var mojSystem = Systemy.MacOS;
 function nazwa(p1, p2, p3) {
     if (p2 === void 0) { p2 = 2; }
     if (p2 != 2)
-        return 'Psikus';
+        return 'kaktus';
     return 1;
 }
-console.log(nazwa('kk'));
+console.log(nazwa('kk', 3));
+function wypiszWartosci(param) {
+    console.log(param.nazwa);
+    console.log(param.wiek);
+    console.log(param.dodatkowe);
+}
+var testowyObiekt = {
+    nazwa: "testowy",
+    wiek: 1
+};
+wypiszWartosci(testowyObiekt);
 //# sourceMappingURL=newfile.js.map
